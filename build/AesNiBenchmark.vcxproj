@@ -155,7 +155,6 @@
   <ItemGroup>
     <ClInclude Include="..\src\Aes.h" />
     <ClInclude Include="..\src\Aes_Botan_aesni.h" />
-    <ClInclude Include="..\src\Aes_Botan_sse3.h" />
     <ClInclude Include="..\src\config.h" />
     <ClInclude Include="..\src\cpu.h" />
     <ClInclude Include="..\src\Endian.h" />
@@ -166,7 +165,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\Aes_Botan_aesni.c" />
-    <ClCompile Include="..\src\Aes_Botan_sse3.c" />
     <ClCompile Include="..\src\cpu.c" />
     <ClCompile Include="..\src\Endian.c" />
     <ClCompile Include="..\src\GostTester.c" />

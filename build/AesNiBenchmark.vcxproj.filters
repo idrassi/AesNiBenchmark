@@ -26,9 +26,6 @@
     <ClInclude Include="..\src\Aes_Botan_aesni.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\Aes_Botan_sse3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\src\config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -53,9 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\Aes_Botan_aesni.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Aes_Botan_sse3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\cpu.c">
